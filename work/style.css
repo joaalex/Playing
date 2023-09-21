@@ -1,0 +1,97 @@
+body{
+  background-color: #000;
+  color: #fff;
+}
+
+hr{
+  width: 95%;
+}
+
+form{
+  max-width: 50%;
+  margin: auto;
+  border: 1px solid #fff;
+}
+
+.survey{
+  font-size: 5rem;
+  text-align: center;
+  
+}
+
+.cus{
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+.sec-inp input,
+.fir-inp input{
+  width: 100%;
+  padding: 1rem;
+  padding-right: 6rem;;
+ 
+}
+
+.sec-inp,
+.fir-inp{
+  margin-left: 1rem;
+  display: inline-block;
+}
+
+.sec-inp{
+  margin-left: 10rem;
+  
+}
+
+
+.box{
+  height:300px;
+  width: 400px;
+  border: #fff solid 2px;
+  background-color: brown;
+  /* position: relative; */
+  margin-top: 60rem;
+  margin-bottom: 60rem;
+}
+ 
+.sb, .ab{
+  height:100px;
+  width:80px;
+  border: #000 solid 1px;
+  background-color: aquamarine;
+
+}
+.ab{
+  background-color: blue;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+}
+
+.main1{
+  height: 400px;
+  width: 400px;
+  border: #000 solid 2px;
+  background: burlywood;
+  position: relative;
+  /* z-index: 3; */
+}
+
+.div1{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: relative;
+  z-index: 3;
+}
+
+.div2{
+  width: 100px;
+  height: 100px;
+  background: yellowgreen;
+  position: absolute;
+  /* bottom: 20px; */
+  z-index: 2;
+  
+
+}

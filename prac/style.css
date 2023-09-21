@@ -1,0 +1,73 @@
+body{
+  background-color: black;
+  color: #fff;
+  
+}
+.par{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-auto-rows: 100%;
+  /* max-width: 100%; */
+  /* grid-gap: 5px; */
+}
+
+.yel{
+  background-color: #0062ff;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  /* padding: 30px; */
+  grid-column-start: 1;
+  grid-column-end: 5;
+  
+}
+
+
+.lis{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.blu{
+  background-color: #fff;
+  /* padding: 30px; */
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  color: #000;
+  padding-right: -10rem;
+
+}
+.gre{
+  /* background-color: green; */
+  padding: 30px;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  
+}
+.red{
+  /* background-color: red; */
+  padding: 30px;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  
+}
+.pur{
+  /* background-color: purple; */
+  padding: 30px;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-image: url(../building.jpeg);
+  background-size: cover;
+}
+@media screen and (700px <= width <= 1000px){
+ 
+  .yel{
+    background-color: #f0f;
+  }
+}

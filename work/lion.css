@@ -1,0 +1,72 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.div1{
+  text-align: center;
+}
+
+.big{
+  margin-top: 2rem;
+  display: flex;
+}
+
+.h1{
+  font-size: 3rem;
+  font-family: Courier,;
+}
+
+.h5{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri,;
+}
+.fl{
+  width: 70%;
+  text-align: center;
+  background-color: white;
+  padding: 9rem 0;
+  color:black;
+  font-size: 3rem;
+}
+
+.sl{
+  width: 30%;
+  border: 2px solid #000;
+  background-image: url('https://scontent-los2-1.xx.fbcdn.net/v/t31.18172-8/29745184_1912885692118212_5136114122770218313_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=syRNOanzVIUAX8ycFoy&_nc_ht=scontent-los2-1.xx&oh=00_AfDNsX8X5dWGHHHZvS2IaRpYxNDVW_rrixonadZY9K0XkA&oe=650D7A1C');
+  background-size: contain;
+}
+.rrr{
+  width: 70%;
+  margin: auto;
+}
+.uuu{
+  margin-right: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.sd{
+  display: flex;
+  
+}
+
+.b1{
+  text-align: left;
+  font-size: 3rem;
+
+}
+.copy{
+  text-align: center;
+  color: orange;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  background-color:#fff;
+  border: 1px solid transparent;
+  border-radius:150%;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-image: url('https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-1024.png');
+  background-size: contain;
+}

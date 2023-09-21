@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   background-image:linear-gradient(130deg, #2121f9 30%, #0404b8 50%   ) ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+.main-sec{
+  max-width: 80rem;
+  width: 100%;
+  margin: auto;
+  padding: 0 0.5rem;
+
+}
+
+.navbar{
+  background-image:linear-gradient(90deg, #2121f9 25%, #0404b8 50%  ) ;
+  padding: 0 .5rem;
+  max-width: 90rem;
+  margin: auto;
+}
+.navbar-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.navbar h1{
+  font-size: 4rem;
+  color: #fff;
+  margin: 0;
+  
+  
+  
+}
+
+.navbar-ul{
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+  list-style-type: none;
+}
+
+.navbar-ul li:last-child{
+  background-color: #088b60;
+  padding: .8rem 2rem;
+  border-radius: 25px;
+}
+
+.navbar-ul a{
+  text-decoration: none;
+  color: #e2d8d8;
+  font-size: 1.2rem;
+}
+
+.sec-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  padding: 6rem 0;
+  color: #fff;
+}
+
+.sec-div p{
+  font-size: 1.5rem;
+  color: #f4f808;
+  padding-bottom: 1.3rem;
+}
+
+.div-con{
+  flex-basis: 50%;
+}
+.div-img{
+  flex-basis: 40%;
+  object-fit: contain;
+}
+
+.sec-div button{
+  background-color: #0ca773;
+  padding: 1.3rem 4rem;
+  border-radius: 25px;
+  border: none;
+  font-size: 1.2rem;
+  color: #fff;
+}
